@@ -3,7 +3,11 @@ h1 {
   font-style: normal;
   font-variant: normal;
   color: #0039e2;
-  font-size: 200%;
+  font-size: 180%;
+}
+
+h1:hover {
+  color: darkgoldenrod;
 }
 
 /* "Lucida Console", Monaco, monospace; */
@@ -43,4 +47,20 @@ pre {
   font-variant: normal;
   font-weight: 400;
   line-height: 18.5714px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: darkgoldenrod;
+}
+
+a:active {
+}
+
+a:visited {
+  background-color: #ccc;
 }
