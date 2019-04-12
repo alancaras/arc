@@ -7,7 +7,11 @@ function myFunction() {
   return 1;
 }
 
-function addTwo(x, y) {
+
+/*function addTwo(x, y) {
   console.log(x + y);
   alert("hi");
-}
+};
+/*
+//-->
+
