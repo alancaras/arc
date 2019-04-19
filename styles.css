@@ -1,13 +1,14 @@
 h1 {
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   font-style: normal;
   font-variant: normal;
-  font-weight:700;
+  font-weight: 700;
   color: whitesmoke;
-  font-size: 300%;
-  text-align:center;
+  font-size: 50px;
+  line-height: 62px;
+  text-align: center;
   position: fixed;
-  Top: 5px;
+  top: 5px;
   width: 100%;
 }
 
@@ -17,39 +18,33 @@ font-family: 'Open Sans', sans-serif;
 */
 
 h3 {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 22px;
   font-style: normal;
   font-variant: normal;
   color: whitesmoke;
-  font-weight: 700;
-  line-height: 15.4px;
+  line-height: 29px;
+  text-align: center;
+  position: fixed;
+  top: 170px;
+  width: 100%;
 }
 p {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 22px;
   font-style: normal;
   font-variant: normal;
   color: whitesmoke;
-  font-weight: 400;
-  line-height: 20px;
-  text-align:center;
+  line-height: 29px;
+  text-align: center;
 }
 blockquote {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 21px;
   font-style: normal;
   font-variant: normal;
   font-weight: 400;
   line-height: 30px;
-}
-pre {
-  font-family: font-family: 'Open Sans', sans-serif;
-  font-size: 13px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 400;
-  line-height: 18.5714px;
 }
 
 a {
