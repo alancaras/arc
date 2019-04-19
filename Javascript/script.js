@@ -1,5 +1,5 @@
 function myFunction() {
-  const animals = ["Grizzly Bear", "Sloth", "Sea Lion"];
+  const animals = ["One", "Two", "Three"];
   for (let i = 0; i < animals.length; i++) {
     console.log(i);
     console.log(animals[i]);

@@ -1,38 +1,42 @@
 h1 {
-  font-family: monospace;
+  font-family: 'Roboto Slab', serif;
   font-style: normal;
   font-variant: normal;
-  color: #0039e2;
-  font-size: 180%;
+  font-weight:700;
+  color: whitesmoke;
+  font-size: 300%;
+  text-align:center;
+  position: fixed;
+  Top: 5px;
+  width: 100%;
 }
 
-h1:hover {
-  color: darkgoldenrod;
-}
-
-/* "Lucida Console", Monaco, monospace; */
+/* "Lucida Console", Monaco, monospace; 
+font-family: 'Roboto', sans-serif;
+font-family: 'Open Sans', sans-serif;
+*/
 
 h3 {
-  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text",
-    "Times New Roman", serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   font-style: normal;
   font-variant: normal;
+  color: whitesmoke;
   font-weight: 700;
   line-height: 15.4px;
 }
 p {
-  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text",
-    "Times New Roman", serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 13px;
   font-style: normal;
   font-variant: normal;
+  color: whitesmoke;
   font-weight: 400;
   line-height: 20px;
+  text-align:center;
 }
 blockquote {
-  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text",
-    "Times New Roman", serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 21px;
   font-style: normal;
   font-variant: normal;
@@ -40,8 +44,7 @@ blockquote {
   line-height: 30px;
 }
 pre {
-  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text",
-    "Times New Roman", serif;
+  font-family: font-family: 'Open Sans', sans-serif;
   font-size: 13px;
   font-style: normal;
   font-variant: normal;
@@ -50,17 +53,30 @@ pre {
 }
 
 a {
-  color: black;
+  color: whitesmoke;
   text-decoration: none;
 }
 
 a:hover {
-  color: darkgoldenrod;
-}
-
-a:active {
+  color: white;
 }
 
 a:visited {
-  background-color: #ccc;
+  background-color: whitesmoke;
+}
+
+.hero-image {
+  background-image: url(Images/hangah-liong-spencer.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  /* Full height */
+  height: 100%;
+}
+
+.bottom {
+  position: fixed;
+  bottom: 30px;
+  width: 100%;
 }
