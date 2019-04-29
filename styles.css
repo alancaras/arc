@@ -16,8 +16,7 @@ h1 {
 font-family: 'Roboto', sans-serif;
 font-family: 'Open Sans', sans-serif;
 */
-
-h3 {
+gi h3 {
   font-family: "Open Sans", sans-serif;
   font-size: 22px;
   font-style: normal;
@@ -74,4 +73,9 @@ a:visited {
   position: fixed;
   bottom: 30px;
   width: 100%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
 }
