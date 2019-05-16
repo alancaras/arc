@@ -8,7 +8,7 @@ h1 {
   line-height: 62px;
   text-align: center;
   position: fixed;
-  top: 5px;
+  top: 35px;
   width: 100%;
 }
 
@@ -30,11 +30,11 @@ gi h3 {
 }
 p {
   font-family: "Open Sans", sans-serif;
-  font-size: 22px;
+  font-size: 26px;
   font-style: normal;
   font-variant: normal;
   color: whitesmoke;
-  line-height: 29px;
+  line-height: 32px;
   text-align: center;
 }
 blockquote {
@@ -71,7 +71,7 @@ a:visited {
 
 .bottom {
   position: fixed;
-  bottom: 30px;
+  bottom: 70px;
   width: 100%;
 }
 
